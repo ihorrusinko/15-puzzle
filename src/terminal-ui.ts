@@ -36,12 +36,12 @@ export default class TerminalUI {
         console.clear();
 
         console.log('=========================');
-        console.log('Welcome to puzzle 15 game');
+        console.log('Welcome to Puzzle 15');
         console.log([
             'How to play:',
-            'A tile can be moved to a neighbour empty place using keyboard arrows.',
-            'To succeed in the game you need to order tiles from 1 to 15, where tile number 1 is at the top left corner and empty one is at the bottom right corner.',
-            'More details: https://en.wikipedia.org/wiki/15_puzzle\'.',
+            'A tile can be moved to a neighbour empty space using your keyboard arrows.',
+            'To win the game, you must order the tiles from 1 to 15. Tile number 1 must reside in the top-left corner. Leave an empty space in the the bottom-right corner.',
+            'More details: https://en.wikipedia.org/wiki/15_puzzle',
             'Good luck!'
         ].join('\n'));
 
@@ -62,7 +62,7 @@ export default class TerminalUI {
 
         if (this.game.isSolved()) {
             console.log('YAY!!! You solved the puzzle!');
-            console.log('press any button to exit...');
+            console.log('Press any button to exit...');
         }
     }
 }

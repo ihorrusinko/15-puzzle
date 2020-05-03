@@ -14,6 +14,16 @@ npm install
 npm start
 ```
 p.s keypress events of ui tested in default terminal OS X Catalina and latest iTerm.
+## Tests
+Tests written using jest.
+```
+npm run test
+```
+Check coverage:
+```
+npm run test:coverage
+```
+
 ## Licence
 The MIT License (MIT)
 
